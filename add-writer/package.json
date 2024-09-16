@@ -1,0 +1,18 @@
+{
+  "name": "add-writer",
+  "version": "1.0.0",
+  "description": "Autobase instances are not writable by default unless the peer creates the autobase. To make a peer writable the following song and dance needs to happen (peer A is the creator of the autobase and peer B is the one being added as a writer):",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sean Zellmer <sean@lejeunerenard.com> (http://lejeunerenard.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "autobase": "^6.5.3",
+    "autobase-test-helpers": "^2.1.1",
+    "corestore": "^6.18.4",
+    "random-access-memory": "^6.2.1"
+  }
+}
